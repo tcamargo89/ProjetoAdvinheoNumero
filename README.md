@@ -5,4 +5,4 @@
 </p>
 
 ## Descrição do Projeto
-<p align="center">Game com o intúido de aprendizado em JavaScript</p>
+<p align="left">Game com o intúido de aprendizado em JavaScript, HTML e CSS, está meio simples pois é o meu primeiro projeto pessoal!</p>
