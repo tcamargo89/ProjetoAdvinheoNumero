@@ -37,6 +37,7 @@ document.querySelector(".check").addEventListener("click", function () {
       hisghscore = score;
       document.querySelector(".highscore").textContent = hisghscore;
     }
+    // Quando o valor for diferente do correto - esse campo foi refatorado
   } else if (guess !== secretNumber) {
     if (score > 1) {
       displayMessage(guess < secretNumber ? "Muito Baixo" : "Muito alto");
