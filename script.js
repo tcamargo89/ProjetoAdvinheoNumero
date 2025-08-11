@@ -23,7 +23,7 @@ document.querySelector(".check").addEventListener("click", function () {
   //quando nao tem valor no input
   if (!guess || guess < 0) {
     //ira retornar um valor zero, como é sabido zero é um valor falso, entao usamos a negativa ! para que esse valor false seja verdadeiro e entre no if, sacou a jogada!!!
-    // document.querySelector(".message").textContent = "Insira um número válido";
+    // document.querySelector(".message").textContent = "Insira um número válido".
     displayMessage("Insira um número válido");
 
     //quando o jogador ganha
